@@ -1,0 +1,114 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark gray text */
+    text-align: center;
+}
+
+/* Container for content */
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+h1 {
+    font-size: 2.8em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #0056b3; /* Deep Blue */
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #ff8c00; /* Gold */
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555; /* Soft dark gray */
+}
+
+/* Styled List */
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+ol li {
+    background: rgba(0, 86, 179, 0.1); /* Light blue shade */
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #0056b3;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 40px;
+    color: white;
+}
+
+#contact p {
+    font-size: 1.1em;
+}
+
+#contact a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Call to Action Button */
+.cta-btn {
+    display: inline-block;
+    background-color: #ff8c00;
+    color: white;
+    font-size: 1.2em;
+    padding: 12px 25px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: 0.3s ease;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cta-btn:hover {
+    background-color: #e67e00;
+    transform: scale(1.05);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.2em;
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+}
